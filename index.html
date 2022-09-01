@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
 
     <!-- styles -->
     <style>
@@ -100,7 +99,7 @@
 
         <!-- img container start -->
         <div class="container mx-auto w-4/5 my-10">
-            <img src="./images/intro.png" alt="House Picture" class="w-full shadow-inner">
+            <img src="./images/intro.png" alt="House Picture" class="w-full rounded">
         </div>
         <!-- img container end -->
     </section>
@@ -139,13 +138,13 @@
                     Washington D.C. and many more.
                 </p>
 
-                <img src="./images/about1.png" alt="Example House In Washington D.C." class="w-full">
+                <img src="./images/about1.png" alt="Example House In Washington D.C." class="w-full rounded">
             </div>
             <!-- column one end -->
 
             <!-- column two start -->
             <div>
-                <img src="./images/about2.png" alt="Example Interior In Washington D.C." class="w-full">
+                <img src="./images/about2.png" alt="Example Interior In Washington D.C." class="w-full rounded">
 
                 <p class="text-gray-300 text-[1.1rem] py-5">
                     We have learned to make our interiors both cozy and modern-looking. Our best designers work day and
@@ -213,17 +212,17 @@
                     <div class="grid grid-flow-col grid-cols-2 grid-rows-2 gap-5">
                         <div class="col-span-1">
                             <img src="./images/show1.png" alt=""
-                                class="w-full translate-y-10 hover:scale-95 transition-all">
+                                class="w-full translate-y-10 hover:scale-95 transition-all rounded">
                         </div>
                         <div class="col-span-1">
                             <img src="./images/show2.png" alt=""
-                                class="w-full translate-y-10 hover:scale-95 transition-all">
+                                class="w-full translate-y-10 hover:scale-95 transition-all rounded">
                         </div>
                         <div class="col-span-1">
-                            <img src="./images/show3.png" alt="" class="w-full hover:scale-95 transition-all">
+                            <img src="./images/show3.png" alt="" class="rounded w-full hover:scale-95 transition-all">
                         </div>
                         <div class="col-span-1">
-                            <img src="./images/show4.png" alt="" class="w-full hover:scale-95 transition-all">
+                            <img src="./images/show4.png" alt="" class="rounded w-full hover:scale-95 transition-all">
                         </div>
                     </div>
                 </div>
@@ -233,7 +232,7 @@
         <!-- feature subsection end -->
 
         <!-- testimonials subsection start -->
-        <section class="bg-inherit w-full bg-[#24231e] p-10" id="testimonials">
+        <section class="w-full bg-[#24231e] p-10" id="testimonials">
             <!-- container start -->
             <div class="container w-1/2 text-center mx-auto">
                 <p class="text-gray-300 text-[1.2rem]">
@@ -251,7 +250,63 @@
             </div>
             <!-- container end -->
         </section>
+        <!-- testimonials subsection end -->
+
+        <!-- process subsection start -->
+        <section class="bg-inherit p-10" id="process">
+            <!-- header start -->
+            <a href="#process" class="text-center">
+                <h2 class="font-bold text-4xl hover:-translate-y-1 transition-all w-4/5 mx-auto pt-10 px-10">Our
+                    projects' process
+                </h2>
+            </a>
+            <!-- header end -->
+
+            <!-- flex container start -->
+            <div class="flex container justify-around w-4/5 mx-auto gap-20 items-start">
+                <div class="w-1/4 text-center">
+                    <h2 class="font-bold text-5xl py-4 pt-8 tracking-wide">01</h2>
+
+                    <h2 class="text-white font-bold text-2xl py-3">Planning</h2>
+                    <p class="text-gray-300 text-[1.1rem]">
+                        Planning is always important, especially to us, who really appreciate our and customers' time
+                    </p>
+                </div>
+
+                <div class="w-1/4 text-center">
+                    <h2 class="font-bold text-5xl py-4 pt-8 tracking-wide">02</h2>
+
+                    <h2 class="text-white font-bold text-2xl py-3">Sketching</h2>
+                    <p class="text-gray-300 text-[1.1rem]">
+                        Imagining how the project will look is crucial to make it as customizable as possible
+                    </p>
+                </div>
+
+                <div class="w-1/4 text-center">
+                    <h2 class="font-bold text-5xl py-4 pt-8 tracking-wide">03</h2>
+
+                    <h2 class="text-white font-bold text-2xl py-3">Developing</h2>
+                    <p class="text-gray-300 text-[1.1rem]">
+                        Developing requires a significant amount of effort and time to
+                        make the project look just like customer wants it to
+                    </p>
+                </div>
+
+                <div class="w-1/4 text-center">
+                    <h2 class="font-bold text-5xl py-4 pt-8 tracking-wide">04</h2>
+
+                    <h2 class="text-white font-bold text-2xl py-3">Testing</h2>
+                    <p class="text-gray-300 text-[1.1rem]">
+                        Testing is probably the most important part, because this is where all the inaccuracies or
+                        mistakes come out
+                    </p>
+                </div>
+            </div>
+            <!-- flex container end -->
+        </section>
+        <!-- process subsection end -->
     </section>
+    <!-- about section end -->
 </body>
 
 </html>
