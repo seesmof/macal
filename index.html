@@ -36,7 +36,7 @@
     <div class="navbar sticky top-0 z-50 before:shadow before:shadow-[#8c7258] bg-inherit p-10">
         <!-- flex container start -->
         <div class="container w-4/5 mx-auto flex flex-row justify-between">
-            <div id="logo">
+            <div id="logo" class="hover:-translate-y-1 transition-all">
                 <a href="./index.html">
                     <img src="./images/logo.png" alt="Company Logo" class="w-1/2">
                 </a>
@@ -89,7 +89,7 @@
                 </p>
                 <a href="#project">
                     <button
-                        class="my-5 normal-case font-normal px-7 text-[1.2rem] btn btn-outline rounded-none border-[#8c7258] text-inherit hover:bg-[#8c7258] hover:border-none hover:text-white transition-all">Read
+                        class="my-5 normal-case font-normal px-7 text-[1.2rem] btn btn-outline rounded-none border-[#8c7258] text-inherit hover:bg-[#8c7258] hover:border-none hover:scale-95 hover:text-white transition-all">Read
                         More</button>
                 </a>
             </div>
@@ -138,13 +138,15 @@
                     Washington D.C. and many more.
                 </p>
 
-                <img src="./images/about1.png" alt="Example House In Washington D.C." class="w-full rounded">
+                <img src="./images/about1.png" alt="Example House In Washington D.C."
+                    class="w-full rounded hover:scale-95 transition-all">
             </div>
             <!-- column one end -->
 
             <!-- column two start -->
             <div>
-                <img src="./images/about2.png" alt="Example Interior In Washington D.C." class="w-full rounded">
+                <img src="./images/about2.png" alt="Example Interior In Washington D.C."
+                    class="w-full rounded hover:scale-95 transition-all">
 
                 <p class="text-gray-300 text-[1.1rem] py-5">
                     We have learned to make our interiors both cozy and modern-looking. Our best designers work day and
@@ -204,7 +206,7 @@
 
                     <a href="#project">
                         <button
-                            class="mt-7 normal-case font-normal px-10 text-[1.1rem] btn btn-outline rounded-none border-[#8c7258] text-inherit hover:bg-[#8c7258] hover:border-none hover:text-white transition-all">Explore</button>
+                            class="mt-7 normal-case font-normal px-10 text-[1.1rem] btn btn-outline rounded-none border-[#8c7258] text-inherit hover:bg-[#8c7258] hover:border-none hover:scale-95 hover:text-white transition-all">Explore</button>
                     </a>
                 </div>
 
@@ -253,10 +255,10 @@
         <!-- testimonials subsection end -->
 
         <!-- process subsection start -->
-        <section class="bg-inherit p-10" id="process">
+        <section class="bg-inherit p-10 my-10" id="process">
             <!-- header start -->
             <a href="#process" class="text-center">
-                <h2 class="font-bold text-4xl hover:-translate-y-1 transition-all w-4/5 mx-auto pt-10 px-10">Our
+                <h2 class="font-bold text-4xl hover:-translate-y-1 transition-all w-4/5 mx-auto px-10">Our
                     projects' process
                 </h2>
             </a>
@@ -305,8 +307,129 @@
             <!-- flex container end -->
         </section>
         <!-- process subsection end -->
+
+        <!-- contact subsection start -->
+        <section class="bg-[#24231e] p-10" id="contact">
+            <!-- flex container start -->
+            <div class="flex container mx-auto w-4/5 justify-between items-center">
+                <!-- header start -->
+                <div class="hover:-translate-y-1 transition-all text-white text-3xl">
+                    <a href="#contact"">
+                    <h2 class=" font-bold">
+                        Interested in our service? <br>
+                        Feel free to reach out
+                        </h2>
+                    </a>
+                </div>
+                <!-- header end -->
+
+                <!-- button start -->
+                <div class="">
+                    <a href="#contact">
+                        <button
+                            class="normal-case font-normal px-10 text-[1.2rem] btn btn-outline rounded-none border-[#8c7258] text-inherit hover:bg-[#8c7258] hover:border-none hover:scale-95 hover:text-white transition-all">Contact
+                            Us</button>
+                    </a>
+                </div>
+                <!-- button end -->
+            </div>
+            <!-- flex container end -->
+        </section>
+        <!-- contact subsection end -->
     </section>
     <!-- about section end -->
+
+    <!-- footer section start -->
+    <footer class="bg-inherit p-10">
+        <!-- grid container start -->
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-1 w-4/5 mx-auto items-start">
+            <div class="col-span-1 flex justify-center flex-col">
+                <div class="hover:-translate-y-1 transition-all">
+                    <a href="#home">
+                        <img src="./images/logo.png" alt="Company Logo" class="w-1/2">
+                    </a>
+                </div>
+
+                <div class="pt-5">
+                    <button class="btn btn-ghost btn-circle btn-md hover:bg-[#8c7258]">
+                        <i class="fa-brands fa-facebook-f fa-xl"></i>
+                    </button>
+                    <button class="btn btn-ghost btn-circle btn-md hover:bg-[#8c7258]">
+                        <i class="fa-brands fa-twitter fa-xl"></i>
+                    </button>
+                    <button class="btn btn-ghost btn-circle btn-md hover:bg-[#8c7258]">
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                    </button>
+                    <button class="btn btn-ghost btn-circle btn-md hover:bg-[#8c7258]">
+                        <i class="fa-brands fa-youtube fa-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-span-1">
+                <div class="hover:-translate-y-1 transition-all">
+                    <a href="#contact">
+                        <h2 class="font-bold text-2xl text-white">Useful Links</h2>
+                    </a>
+                </div>
+
+                <div class="pt-5 flex flex-col text-gray-300">
+                    <a href="#about" class="hover:-translate-x-1 transition-all">About Us</a>
+                    <a href="#home" class="hover:-translate-x-1 transition-all">Our Clients</a>
+                    <a href="#project" class="hover:-translate-x-1 transition-all">Project</a>
+                    <a href="#testimonials" class="hover:-translate-x-1 transition-all">Testimonials</a>
+                    <a href="#process" class="hover:-translate-x-1 transition-all">Process</a>
+                    <a href="#contact" class="hover:-translate-x-1 transition-all">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="col-span-1">
+                <div class="hover:-translate-y-1 transition-all">
+                    <a href="#contact">
+                        <h2 class="font-bold text-2xl text-white">Get In Touch</h2>
+                    </a>
+                </div>
+
+                <div class="pt-5 flex flex-col text-gray-300">
+                    <a href="https://github.com/seesmof" class="hover:-translate-x-2 transition-all py-3">
+                        <div class="flex flex-row items-center">
+                            <div class="self-center pr-3">
+                                <i class="fas fa-mobile-screen text-[#8c7258]"></i>
+                            </div>
+                            <div class="self-center">
+                                <h2 class="font-bold text-xl">Phone</h2>
+                                <p class="text-gray-300 pt-1">+1 (646) 336-7281</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="mailto:seesmwork@gmail.com" class="hover:-translate-x-2 transition-all py-3">
+                        <div class="flex flex-row items-center">
+                            <div class="self-center pr-3">
+                                <i class="fa-regular fa-envelope text-[#8c7258]"></i>
+                            </div>
+                            <div class="self-center">
+                                <h2 class="font-bold text-xl">Email</h2>
+                                <p class="text-gray-300 pt-1">info@macal.com</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://goo.gl/maps/a6dheTADzJLNHH2bA" class="hover:-translate-x-2 transition-all">
+                        <div class="flex flex-row items-center">
+                            <div class="self-center pr-3">
+                                <i class="fa-regular fa-map text-[#8c7258]"></i>
+                            </div>
+                            <div class="self-center">
+                                <h2 class="font-bold text-xl">Address</h2>
+                                <p class="text-gray-300 pt-1">285 Fulton Street, New York City</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- grid container end -->
+    </footer>
+    <!-- footer section end -->
 </body>
 
 </html>
