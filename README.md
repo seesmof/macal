@@ -30,7 +30,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Elegant TailwindCSS landing page for a fictional architectural company called Macal. This is by far my favorite project, I implemented lots of animations in it, which I really like. You can ![see it for yourself](https://seesmof.github.io/macal/) and test everything. All is active, all buttons are clickable, as well as all the links.
+Elegant TailwindCSS landing page for a fictional architectural company called Macal. This is by far my favorite project, I implemented lots of animations in it, which I really like. You can [see it for yourself](https://seesmof.github.io/macal/) and test everything. All is active, all buttons are clickable, as well as all the links.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
