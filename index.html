@@ -71,20 +71,22 @@
     <!-- navbar end -->
 
     <!-- hero section start -->
-    <section class="p-10">
+    <section class="p-10" id="home">
         <!-- flex container start -->
         <div class="flex container w-4/5 mx-auto flex-row justify-between gap-10 text-[#8c7258]">
             <!-- header start -->
-            <header class="text-inherit text-[3.3rem] leading-[3.5rem] font-bold">
-                We Are <span class="text-white">Archicture & Interior</span> Professional Services
-            </header>
+            <a href="#home" class="w-1/2 hover:scale-105 transition-all">
+                <header class="text-inherit text-[3.3rem] leading-[3.5rem] font-bold">
+                    We Are <span class="text-white">Archicture & Interior</span> Professional Services
+                </header>
+            </a>
             <!-- header end -->
 
             <!-- side start -->
-            <div class="items-start flex-col p-5 pr-10">
-                <p class="text-gray-300 text-md">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur consectetur consequatur illum
-                    error illo vitae excepturi eligendi atque quis at?
+            <div class="items-start flex-col p-5 pr-10 w-1/2">
+                <p class="text-gray-300 text-[1.1rem]">
+                    Providing the best architectural, interior and exterior design services on the whole east coast.
+                    Serving your needs since 1980th.
                 </p>
                 <a href="#" class="">
                     <button
@@ -98,7 +100,7 @@
 
         <!-- img container start -->
         <div class="container mx-auto w-4/5 my-10">
-            <img src="./images/intro.png" alt="House Picture" class="w-full">
+            <img src="./images/intro.png" alt="House Picture" class="w-full shadow-inner">
         </div>
         <!-- img container end -->
     </section>
@@ -115,8 +117,45 @@
             <img src="./images/clients5.png" alt="" class="object-center">
             <img src="./images/clients6.png" alt="" class="object-center">
         </div>
+        <!-- flex container end -->
     </section>
+    <!-- clients section end -->
 
+    <!-- about section start -->
+    <section id="about" class="bg-inherit">
+        <!-- header start -->
+        <a href="#about" class="">
+            <h2 class="font-bold text-4xl hover:-translate-y-1 transition-all w-4/5 mx-auto pt-10 px-10">About Us</h2>
+        </a>
+        <!-- header end -->
+
+        <!-- grid container start -->
+        <div class="grid grid-flow-col grid-cols-2 grid-rows-1 container mx-auto w-4/5 p-10 gap-7">
+            <!-- column one start -->
+            <div>
+                <p class="text-gray-300 pb-5 text-[1.1rem]">
+                    We are an architectural company located on the east coast of the US and founded in 1986. Our clients
+                    are some of the wealthiest people from cities like New York City, Boston, Baltimore, Miami,
+                    Washington D.C. and many more.
+                </p>
+
+                <img src="./images/about1.png" alt="Example House In Washington D.C." class="w-full">
+            </div>
+            <!-- column one end -->
+
+            <!-- column two start -->
+            <div>
+                <img src="./images/about2.png" alt="Example Interior In Washington D.C." class="w-full">
+
+                <p class="text-gray-300 text-[1.1rem] py-5">
+                    We have learned to make our interiors both cozy and modern-looking. Our best designers work day and
+                    night to make you feel at home and use unique
+                    techniques to make every interior feel special by customizing it complete for customers' needs.
+                </p>
+            </div>
+        </div>
+        <!-- grid container end -->
+    </section>
 </body>
 
 </html>
