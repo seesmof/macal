@@ -48,7 +48,7 @@ Elegant TailwindCSS landing page for a fictional architectural company called Ma
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@seesmof](https://github.com/seesmof) - Development
-- [EnvatoElements](https://elements.envato.com/) - Idea & Desing
+- [EnvatoElements](https://elements.envato.com/macal-architecture-interior-design-template-KWXF2TQ) - Idea & Desing
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
