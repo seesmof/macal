@@ -31,10 +31,10 @@
 
 </head>
 
-<body data-theme="luxury" class="bg-[#1f1e1a]">
+<body data-theme="luxury" class="bg-[#1f1e1a] text-[#8c7258]">
 
     <!-- navbar start -->
-    <div class="navbar sticky top-0 bg-inherit p-10">
+    <div class="navbar sticky top-0 before:shadow before:shadow-[#8c7258] bg-inherit p-10">
         <!-- flex container start -->
         <div class="container w-4/5 mx-auto flex flex-row justify-between">
             <div id="logo">
@@ -44,7 +44,7 @@
             </div>
 
             <nav class="nav">
-                <ul class="text-[#8c7258] flex flex-row gap-9">
+                <ul class="text-inherit flex flex-row gap-9">
                     <a href="#home" class="hover:text-white hover:-translate-y-1 transition-all">
                         <li>Home</li>
                     </a>
@@ -70,17 +70,37 @@
     </div>
     <!-- navbar end -->
 
-    <!-- main section start -->
-    <section>
+    <!-- hero section start -->
+    <section class="p-10">
+        <!-- flex container start -->
+        <div class="flex container w-4/5 mx-auto flex-row justify-between gap-10 text-[#8c7258]">
+            <!-- header start -->
+            <header class="text-inherit text-[3.3rem] leading-[3.5rem] font-bold">
+                We Are <span class="text-white">Archicture & Interior</span> Professional Services
+            </header>
+            <!-- header end -->
 
-        <div class="container mx-auto">
-
-
-
+            <!-- side start -->
+            <div class="items-start flex-col p-5 pr-10">
+                <p class="text-gray-300 text-md">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur consectetur consequatur illum
+                    error illo vitae excepturi eligendi atque quis at?
+                </p>
+                <a href="#" class="">
+                    <button
+                        class="my-5 normal-case font-normal px-7 text-[1.2rem] btn btn-outline rounded-none border-[#8c7258] text-inherit hover:bg-[#8c7258] hover:border-none hover:text-white transition-all">Read
+                        More</button>
+                </a>
+            </div>
+            <!-- side end -->
         </div>
+        <!-- flex container end -->
 
+        <!-- img container start -->
+        <div class="container mx-auto w-4/5 mt-10">
+            <img src="./images/intro.png" alt="House Picture" class="w-full">
+        </div>
     </section>
-    <!-- main section end -->
 
 </body>
 
