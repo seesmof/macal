@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/seesmof/The-Documentation-Compendium.svg)](https://github.com/seesmof/fcc-picasso-painting/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/seesmof/The-Documentation-Compendium.svg)](https://github.com/seesmof/fcc-picasso-painting/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/seesmof/The-Documentation-Compendium.svg)](https://github.com/seesmof/macal/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/seesmof/The-Documentation-Compendium.svg)](https://github.com/seesmof/macal/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 </div>
@@ -30,13 +30,13 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Elegant TailwindCSS landing page for a fictional architectural company called Macal. This is by far my favorite project, I implemented lots of animations in it, which I really like. You can ![see it for yourself](./images/Picasso-Painting-seesmof.png) and test everything. All is active, all buttons are clickable, as well as all the links.
+Elegant TailwindCSS landing page for a fictional architectural company called Macal. This is by far my favorite project, I implemented lots of animations in it, which I really like. You can ![see it for yourself](https://seesmof.github.io/macal/) and test everything. All is active, all buttons are clickable, as well as all the links.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-- [Live View](https://seesmof.github.io/fcc-picasso-painting/)
+- [Live View](https://seesmof.github.io/macal/)
 
-![Website Page](./images/Picasso-Painting-seesmof.png)
+![Website Page](./images/Macal-seesmof.png)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
