@@ -38,6 +38,10 @@ Elegant TailwindCSS landing page for a fictional architectural company called Ma
 
 ![Website Page](./images/Macal-seesmof.png)
 
+---
+
+![Website Page](./images/About-Us-seesmof.png)
+
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [HTML](https://www.w3.org/html/) - Markup Language
